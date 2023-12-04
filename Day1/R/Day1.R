@@ -17,7 +17,7 @@ val_sumCalibration <- tib_calibration %>%
 
 
 val_sumCalibration
-# Correct answer: 55029
+
 
 # Part One attempt two ----
 ## Using the sane approach I used in part 2. This gives the correct answer again.
@@ -72,4 +72,4 @@ text %>%
                 combined = as.numeric(paste0(first_match,last_match))) %>%
   dplyr::summarise(sum(combined))
 
-# My answer is: 55680 but this is not correct. It is too low. I have been unable to find the error.
+
